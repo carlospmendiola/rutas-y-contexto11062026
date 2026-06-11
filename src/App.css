@@ -1,0 +1,19 @@
+ul {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.menuActivo {
+  color: #890000!important;
+}
+
+.fw600 {
+  font-weight: 600;
+}
+.flexContanier {
+  display: flex;
+  gap: 10px;
+}

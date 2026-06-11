@@ -2,12 +2,14 @@ import { Route, Routes } from 'react-router'
 import './App.css'
 import { HomePage, LoginPage, ProductsPage, ServicesPage } from './pages/index'
 import { NavBar } from './components/NavBar'
+import { UserProvider } from './context/UserProvider'
 
 
 function App() {
 
 
   return (
+
     <>
     <header><p>Rutas y Contextos</p></header>
     <NavBar/>
@@ -22,6 +24,7 @@ function App() {
 
     <footer><p>footer</p></footer>
     </>
+
   )
 }
 
